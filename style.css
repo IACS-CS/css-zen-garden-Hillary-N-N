@@ -35,7 +35,13 @@ h6 {
   color:mistyrose
   
 }
-
+h1{text-align: center;
+border: 5px solid mistyrose;
+border-radius: 10px;
+background-color: black;
+box-shadow:0 0 20px black;
+margin-bottom: 50px;
+}
 /* Background */
 #css-zen-garden {
   background: linear-gradient(45deg, #f3f3f3 0%, #c8c8c8 100%);
