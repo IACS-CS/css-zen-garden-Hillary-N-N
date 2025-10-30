@@ -23,8 +23,9 @@
 .page-wrapper {
   /* Main font */
   font-family: "Bitcount Grid Single", sans-serif;
+  color:mistyrose;
+  text-align:center; 
 }
-h1,
 h2,
 h3,
 h4,
@@ -32,16 +33,31 @@ h5,
 h6 {
   /* Header font */
   font-family: "Poppins", cursive;
-  color:mistyrose
+  color:black;
+  text-align:center;
   
 }
-h1{text-align: center;
+h1{
+color:mistyrose;
+font-family: "Poppins", cursive;
+text-align: center;
 border: 5px solid mistyrose;
 border-radius: 10px;
 background-color: black;
 box-shadow:0 0 20px black;
 margin-bottom: 50px;
 }
+.summary{
+  border:5px solid mistyrose;
+  background-color:black;
+  border-radius:10px;
+  box-shadow:0 0 20px black;
+  margin-bottom:50px;
+  padding:10px;
+  font-size:20px
+}
+.preamble{
+
 /* Background */
 #css-zen-garden {
   background: linear-gradient(45deg, #f3f3f3 0%, #c8c8c8 100%);
