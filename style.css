@@ -56,7 +56,25 @@ margin-bottom: 50px;
   padding:10px;
   font-size:20px
 }
+.preamble h3{
+  top: -5em;
+  position: absolute;
+  margin-bottom: 50px;
+  color: mistyrose;
+  position: relative;
+ width: 500px;
+}
 .preamble{
+  border:5px solid mistyrose;
+  background-color:black;
+  border-radius:10px;
+  box-shadow:0 0 20px black;
+  margin-bottom:50px;
+  padding:10px;
+ font-size: 20px;
+}
+    
+  
 
 /* Background */
 #css-zen-garden {
