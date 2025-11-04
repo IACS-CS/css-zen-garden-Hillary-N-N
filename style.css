@@ -33,7 +33,7 @@ h5,
 h6 {
   /* Header font */
   font-family: "Poppins", cursive;
-  color:black;
+  color:mistyrose;;
   text-align:center;
   
 }
@@ -57,12 +57,12 @@ margin-bottom: 50px;
   font-size:20px
 }
 .preamble h3{
-  top: -5em;
-  position: absolute;
-  margin-bottom: 50px;
-  color: mistyrose;
-  position: relative;
- width: 500px;
+  border:5px solid mistyrose;
+  margin-bottom: 30px;;
+  text-align:center;
+  padding:10px;
+  border-radius:10px;
+  margin-top:10px;
 }
 .preamble{
   border:5px solid mistyrose;
@@ -71,11 +71,122 @@ margin-bottom: 50px;
   box-shadow:0 0 20px black;
   margin-bottom:50px;
   padding:10px;
- font-size: 20px;
+  font-size: 20px;
+  margin-top: 90px;
 }
-    
-  
+.explanation h3{
+  border:5px solid mistyrose;
+  margin-bottom: 30px;;
+  text-align:center;
+  padding:10px;
+  border-radius:10px;
+  margin-top:10px;
+  background-color:black;
+}
+.explanation{
+  border:5px solid mistyrose;
+  background-color:black;
+  border-radius:10px;
+  box-shadow:0 0 20px black;
+  margin-bottom:50px;
+  padding:10px;
+  font-size:20px
+}
+.participation{
+  border:5px solid mistyrose;
+  margin-bottom: 30px;;
+  text-align:center;
+  padding:10px;
+  border-radius:10px;
+  margin-top:10px;
+  background-color:black;
+  font-size:20px;
+}
+.participation h3{
+  border:5px solid mistyrose;
+  background-color:black;
+  border-radius:10px;
+  box-shadow:0 0 20px black;
+  margin-bottom:30px;
+  padding:10px;
+  font-size:20px;
+  margin-top:10px;
+}
+.requirements h3{
+  border:5px solid mistyrose;
+  margin-bottom: 30px;;
+  text-align:center;
+  padding:10px;
+  border-radius:10px;
+  margin-top:10px;
+  background-color:black;
+}
+.requirements{
+  border:5px solid mistyrose;
+  background-color:black;
+  border-radius:10px;
+  box-shadow:0 0 20px black;
+  margin-bottom:50px;
+  padding:10px;
+  font-size:20px
+  }
+.requirements ul{
+  list-style:none;
+}
+.design-selection{
+  border: 5px solid mistyrose;
+  border-radius:10px;
+  background-color:black;
+  box-shadow:0 0 20px black;
+  margin-bottom:50px;
+  padding:10px;
+  font-size:20px;
+}
+.design-selection h3{
+  border:5px solid mistyrose;
+  margin-bottom: 30px;;
+  text-align:center;
+  padding:10px;
+  border-radius:10px;
+  margin-top:10px;
+  background-color:black;
+}
+.design-selection ul{
+  list-style:none;
+} 
+.archives{
+  border:5px solid mistyrose;
+  background-color:black;
+  border-radius:10px;
+  box-shadow:0 0 20px black;
+  margin-bottom:50px;
+  padding:10px;
+  font-size:20px;
+  text-align:left;
+  width: 115px;
+  margin-left:130px;
+  font-size:1.17em;
+}
+.design-archives {
+  border:5px solid mistyrose;
+  margin-bottom: 30px;;
+  text-align:center;
+  padding:10px;
+  border-radius:10px;
+  margin-top:10px;
+  background-color:black;
+  font-size:20px;
+  text-align:left;
+  margin-right: 500px;
+}
+.design-archives ul{
+  list-style:none;
+  margin-left: -20px;
+  font-size:25px;
+  text-align:center;
+}
 
+/* Layout */
 /* Background */
 #css-zen-garden {
   background: linear-gradient(45deg, #f3f3f3 0%, #c8c8c8 100%);
